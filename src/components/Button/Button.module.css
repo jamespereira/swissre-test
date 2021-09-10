@@ -1,0 +1,25 @@
+
+button {
+    padding: 0.8rem;
+    min-width: 9.6rem;
+    background: transparent;
+    border-radius: 0.4rem;
+    font-weight: var(--weightStrong);
+}
+
+.primary-outline {
+    background-color: var(--white);
+    border: 0.2rem solid var(--primary);
+    color: var(--primary);
+}
+
+.white-outline {
+    border: 0.2rem solid var(--white);
+    color: var(--white);
+}
+
+.secondary {
+    background-color: var(--secondary);
+    border: 0.2rem solid var(--secondary);
+    color: var(--white);
+}

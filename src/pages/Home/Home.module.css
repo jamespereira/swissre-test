@@ -1,0 +1,89 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    max-width: var(--contentLarge);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 72rem) {
+    .content {
+        max-width: var(--contentMedium);
+    }
+}
+
+@media only screen and (max-width: 48rem) {
+    .content {
+        max-width: var(--contentSmall);
+    }
+}
+
+.bgOverlay {
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+section.hero {
+    min-height: 40rem;
+    align-items: center;
+    position: relative;
+    display: flex;
+    background: rgba(0, 0, 0, 0.1);
+    background-image: url('/src/pages/Home/budget.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heroWrapper {
+    margin-left: auto;
+    max-width: 64rem;
+}
+
+.heroTitle {
+    font-size: var(--heroTitle);
+    color: var(--white);
+    font-weight: var(--weightExtraStrong);
+    margin-bottom: 2.4rem;
+}
+
+.heroIntro {
+    font-size: var(--heroIntro);
+    color: var(--white);
+    font-weight: var(--weightStrong);
+    margin-bottom: 2.4rem;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2.4rem;
+}
+
+.buttonContainer button:not(:first-of-type) {
+    margin: 0 1.6rem;
+}
+
+section.products {
+    position: relative;
+    display: flex;
+}
+
+.productsWrapper {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 48rem) {
+    .productsWrapper {
+        flex-direction: column;
+    }
+}

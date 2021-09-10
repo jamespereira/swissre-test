@@ -1,0 +1,108 @@
+.container {
+    background: var(--white);
+    width: 100%;
+}
+
+.content {
+    max-width: var(--contentLarge);
+    min-height: 6rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media only screen and (max-width: 72rem) {
+    .content {
+        max-width: var(--contentMedium);
+    }
+}
+
+@media only screen and (max-width: 48rem) {
+    .content {
+        max-width: var(--contentSmall);
+        flex-wrap: wrap;
+        padding-top: 0.8rem;
+    }
+}
+
+.logoContainer {
+    order: 1;
+    justify-self: flex-start;
+    height: 2.4rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 48rem) {
+    .logoContainer {
+        order: 1;
+    }
+}
+
+.logo {
+    background-image: url("/src/pages/App/Header/mint_logo.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.navContainer {
+    order: 2;
+}
+
+@media only screen and (max-width: 48rem) {
+    .navContainer {
+        order: 3;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 48rem) {
+    .navItems {
+        justify-content: space-between;
+    }
+}
+
+.navItems {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navItem {
+    padding: 1.6rem;
+    font-size: var(--fontMedium);
+    font-weight: var(--weightStrong);
+}
+
+@media only screen and (max-width: 72rem) {
+    .navItem {
+        padding: 1.2rem;
+        font-size: var(--fontSmall);
+    }
+}
+
+.navItem a {
+    color: var(--grey);
+}
+
+.buttonContainer {
+    margin-left: auto;
+    order: 3
+}
+
+@media only screen and (max-width: 48rem) {
+    .buttonContainer {
+        order: 2
+    }
+}
+
+.buttonContainer button {
+    margin: 0 0 0 1.6rem;
+}
