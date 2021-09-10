@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/swissre-test/static/css/main.769d0140.chunk.css",
+    "main.js": "/swissre-test/static/js/main.b499cc3a.chunk.js",
+    "main.js.map": "/swissre-test/static/js/main.b499cc3a.chunk.js.map",
+    "runtime-main.js": "/swissre-test/static/js/runtime-main.83768083.js",
+    "runtime-main.js.map": "/swissre-test/static/js/runtime-main.83768083.js.map",
+    "static/js/2.04d6cfc3.chunk.js": "/swissre-test/static/js/2.04d6cfc3.chunk.js",
+    "static/js/2.04d6cfc3.chunk.js.map": "/swissre-test/static/js/2.04d6cfc3.chunk.js.map",
+    "index.html": "/swissre-test/index.html",
+    "static/css/main.769d0140.chunk.css.map": "/swissre-test/static/css/main.769d0140.chunk.css.map",
+    "static/js/2.04d6cfc3.chunk.js.LICENSE.txt": "/swissre-test/static/js/2.04d6cfc3.chunk.js.LICENSE.txt",
+    "static/media/bills.96122cfd.svg": "/swissre-test/static/media/bills.96122cfd.svg",
+    "static/media/budget.80a8c160.svg": "/swissre-test/static/media/budget.80a8c160.svg",
+    "static/media/Home.module.css": "/swissre-test/static/media/budget.fec210db.jpg",
+    "static/media/credit.33d019e9.svg": "/swissre-test/static/media/credit.33d019e9.svg",
+    "static/media/Header.module.css": "/swissre-test/static/media/mint_logo.60e2a06a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83768083.js",
+    "static/js/2.04d6cfc3.chunk.js",
+    "static/css/main.769d0140.chunk.css",
+    "static/js/main.b499cc3a.chunk.js"
+  ]
+}
