@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/swissre-test/static/css/main.769d0140.chunk.css",
-    "main.js": "/swissre-test/static/js/main.b499cc3a.chunk.js",
-    "main.js.map": "/swissre-test/static/js/main.b499cc3a.chunk.js.map",
+    "main.js": "/swissre-test/static/js/main.5d5ae19a.chunk.js",
+    "main.js.map": "/swissre-test/static/js/main.5d5ae19a.chunk.js.map",
     "runtime-main.js": "/swissre-test/static/js/runtime-main.83768083.js",
     "runtime-main.js.map": "/swissre-test/static/js/runtime-main.83768083.js.map",
     "static/js/2.04d6cfc3.chunk.js": "/swissre-test/static/js/2.04d6cfc3.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.83768083.js",
     "static/js/2.04d6cfc3.chunk.js",
     "static/css/main.769d0140.chunk.css",
-    "static/js/main.b499cc3a.chunk.js"
+    "static/js/main.5d5ae19a.chunk.js"
   ]
 }
